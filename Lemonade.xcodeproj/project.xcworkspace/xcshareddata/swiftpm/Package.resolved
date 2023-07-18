@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iterable/swift-sdk",
+      "state" : {
+        "revision" : "fe72db1694d32d15a888e8c96094ed997202c74a",
+        "version" : "6.4.13"
+      }
+    }
+  ],
+  "version" : 2
+}

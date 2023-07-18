@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160F047F2A61C31300F30D28 /* tokens.example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160F047E2A61C31300F30D28 /* tokens.example.swift */; };
+		1660F5342A338F6700252D90 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1660F5332A338F6700252D90 /* NotificationService.swift */; };
+		1660F5382A338F6700252D90 /* Notification Service Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1660F5312A338F6700252D90 /* Notification Service Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1660F53F2A33907600252D90 /* IterableAppExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 1660F53E2A33907600252D90 /* IterableAppExtensions */; };
+		1660F5412A33907600252D90 /* IterableSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1660F5402A33907600252D90 /* IterableSDK */; };
+		16ABA9682925F80C001CA567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABA9672925F80C001CA567 /* AppDelegate.swift */; };
+		16ABA96A2925F80C001CA567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABA9692925F80C001CA567 /* SceneDelegate.swift */; };
+		16ABA96C2925F80C001CA567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABA96B2925F80C001CA567 /* ViewController.swift */; };
+		16ABA96F2925F80C001CA567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16ABA96D2925F80C001CA567 /* Main.storyboard */; };
+		16ABA9712925F80D001CA567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16ABA9702925F80D001CA567 /* Assets.xcassets */; };
+		16ABA9742925F80D001CA567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16ABA9722925F80D001CA567 /* LaunchScreen.storyboard */; };
+		16ABA97F2925F80D001CA567 /* LemonadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABA97E2925F80D001CA567 /* LemonadeTests.swift */; };
+		16ABA9892925F80D001CA567 /* LemonadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABA9882925F80D001CA567 /* LemonadeUITests.swift */; };
+		16ABA98B2925F80D001CA567 /* LemonadeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ABA98A2925F80D001CA567 /* LemonadeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1660F5362A338F6700252D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16ABA95C2925F80C001CA567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1660F5302A338F6700252D90;
+			remoteInfo = "Notification Service Extension";
+		};
+		16ABA97B2925F80D001CA567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16ABA95C2925F80C001CA567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16ABA9632925F80C001CA567;
+			remoteInfo = Lemonade;
+		};
+		16ABA9852925F80D001CA567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16ABA95C2925F80C001CA567 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16ABA9632925F80C001CA567;
+			remoteInfo = Lemonade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1660F5392A338F6700252D90 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1660F5382A338F6700252D90 /* Notification Service Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		160F047E2A61C31300F30D28 /* tokens.example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokens.example.swift; sourceTree = "<group>"; };
+		164F40982A57794100F686B5 /* Lemonade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lemonade.entitlements; sourceTree = "<group>"; };
+		165BEB2B2A3B9E9D003D42E9 /* LemonadeRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LemonadeRelease.entitlements; sourceTree = "<group>"; };
+		1660F5312A338F6700252D90 /* Notification Service Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Notification Service Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1660F5332A338F6700252D90 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		1660F5352A338F6700252D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16ABA9642925F80C001CA567 /* Lemonade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lemonade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16ABA9672925F80C001CA567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16ABA9692925F80C001CA567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16ABA96B2925F80C001CA567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16ABA96E2925F80C001CA567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16ABA9702925F80D001CA567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16ABA9732925F80D001CA567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16ABA9752925F80D001CA567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16ABA97A2925F80D001CA567 /* LemonadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16ABA97E2925F80D001CA567 /* LemonadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeTests.swift; sourceTree = "<group>"; };
+		16ABA9842925F80D001CA567 /* LemonadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16ABA9882925F80D001CA567 /* LemonadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeUITests.swift; sourceTree = "<group>"; };
+		16ABA98A2925F80D001CA567 /* LemonadeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1660F52E2A338F6700252D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9612925F80C001CA567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1660F53F2A33907600252D90 /* IterableAppExtensions in Frameworks */,
+				1660F5412A33907600252D90 /* IterableSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9772925F80D001CA567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9812925F80D001CA567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1660F5322A338F6700252D90 /* Notification Service Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1660F5332A338F6700252D90 /* NotificationService.swift */,
+				1660F5352A338F6700252D90 /* Info.plist */,
+			);
+			path = "Notification Service Extension";
+			sourceTree = "<group>";
+		};
+		16ABA95B2925F80C001CA567 = {
+			isa = PBXGroup;
+			children = (
+				16ABA9662925F80C001CA567 /* Lemonade */,
+				16ABA97D2925F80D001CA567 /* LemonadeTests */,
+				16ABA9872925F80D001CA567 /* LemonadeUITests */,
+				1660F5322A338F6700252D90 /* Notification Service Extension */,
+				16ABA9652925F80C001CA567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16ABA9652925F80C001CA567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16ABA9642925F80C001CA567 /* Lemonade.app */,
+				16ABA97A2925F80D001CA567 /* LemonadeTests.xctest */,
+				16ABA9842925F80D001CA567 /* LemonadeUITests.xctest */,
+				1660F5312A338F6700252D90 /* Notification Service Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16ABA9662925F80C001CA567 /* Lemonade */ = {
+			isa = PBXGroup;
+			children = (
+				164F40982A57794100F686B5 /* Lemonade.entitlements */,
+				165BEB2B2A3B9E9D003D42E9 /* LemonadeRelease.entitlements */,
+				16ABA9672925F80C001CA567 /* AppDelegate.swift */,
+				16ABA9692925F80C001CA567 /* SceneDelegate.swift */,
+				16ABA96B2925F80C001CA567 /* ViewController.swift */,
+				160F047E2A61C31300F30D28 /* tokens.example.swift */,
+				16ABA96D2925F80C001CA567 /* Main.storyboard */,
+				16ABA9702925F80D001CA567 /* Assets.xcassets */,
+				16ABA9722925F80D001CA567 /* LaunchScreen.storyboard */,
+				16ABA9752925F80D001CA567 /* Info.plist */,
+			);
+			path = Lemonade;
+			sourceTree = "<group>";
+		};
+		16ABA97D2925F80D001CA567 /* LemonadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				16ABA97E2925F80D001CA567 /* LemonadeTests.swift */,
+			);
+			path = LemonadeTests;
+			sourceTree = "<group>";
+		};
+		16ABA9872925F80D001CA567 /* LemonadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16ABA9882925F80D001CA567 /* LemonadeUITests.swift */,
+				16ABA98A2925F80D001CA567 /* LemonadeUITestsLaunchTests.swift */,
+			);
+			path = LemonadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1660F5302A338F6700252D90 /* Notification Service Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1660F53C2A338F6700252D90 /* Build configuration list for PBXNativeTarget "Notification Service Extension" */;
+			buildPhases = (
+				1660F52D2A338F6700252D90 /* Sources */,
+				1660F52E2A338F6700252D90 /* Frameworks */,
+				1660F52F2A338F6700252D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notification Service Extension";
+			productName = "Notification Service Extension";
+			productReference = 1660F5312A338F6700252D90 /* Notification Service Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		16ABA9632925F80C001CA567 /* Lemonade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16ABA98E2925F80D001CA567 /* Build configuration list for PBXNativeTarget "Lemonade" */;
+			buildPhases = (
+				16ABA9602925F80C001CA567 /* Sources */,
+				16ABA9612925F80C001CA567 /* Frameworks */,
+				16ABA9622925F80C001CA567 /* Resources */,
+				1660F5392A338F6700252D90 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1660F5372A338F6700252D90 /* PBXTargetDependency */,
+			);
+			name = Lemonade;
+			packageProductDependencies = (
+				1660F53E2A33907600252D90 /* IterableAppExtensions */,
+				1660F5402A33907600252D90 /* IterableSDK */,
+			);
+			productName = Lemonade;
+			productReference = 16ABA9642925F80C001CA567 /* Lemonade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16ABA9792925F80D001CA567 /* LemonadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16ABA9912925F80D001CA567 /* Build configuration list for PBXNativeTarget "LemonadeTests" */;
+			buildPhases = (
+				16ABA9762925F80D001CA567 /* Sources */,
+				16ABA9772925F80D001CA567 /* Frameworks */,
+				16ABA9782925F80D001CA567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16ABA97C2925F80D001CA567 /* PBXTargetDependency */,
+			);
+			name = LemonadeTests;
+			productName = LemonadeTests;
+			productReference = 16ABA97A2925F80D001CA567 /* LemonadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16ABA9832925F80D001CA567 /* LemonadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16ABA9942925F80D001CA567 /* Build configuration list for PBXNativeTarget "LemonadeUITests" */;
+			buildPhases = (
+				16ABA9802925F80D001CA567 /* Sources */,
+				16ABA9812925F80D001CA567 /* Frameworks */,
+				16ABA9822925F80D001CA567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16ABA9862925F80D001CA567 /* PBXTargetDependency */,
+			);
+			name = LemonadeUITests;
+			productName = LemonadeUITests;
+			productReference = 16ABA9842925F80D001CA567 /* LemonadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16ABA95C2925F80C001CA567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1660F5302A338F6700252D90 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					16ABA9632925F80C001CA567 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					16ABA9792925F80D001CA567 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 16ABA9632925F80C001CA567;
+					};
+					16ABA9832925F80D001CA567 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 16ABA9632925F80C001CA567;
+					};
+				};
+			};
+			buildConfigurationList = 16ABA95F2925F80C001CA567 /* Build configuration list for PBXProject "Lemonade" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16ABA95B2925F80C001CA567;
+			packageReferences = (
+				1660F53D2A33907600252D90 /* XCRemoteSwiftPackageReference "swift-sdk" */,
+			);
+			productRefGroup = 16ABA9652925F80C001CA567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16ABA9632925F80C001CA567 /* Lemonade */,
+				16ABA9792925F80D001CA567 /* LemonadeTests */,
+				16ABA9832925F80D001CA567 /* LemonadeUITests */,
+				1660F5302A338F6700252D90 /* Notification Service Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1660F52F2A338F6700252D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9622925F80C001CA567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ABA9742925F80D001CA567 /* LaunchScreen.storyboard in Resources */,
+				16ABA9712925F80D001CA567 /* Assets.xcassets in Resources */,
+				16ABA96F2925F80C001CA567 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9782925F80D001CA567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9822925F80D001CA567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1660F52D2A338F6700252D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1660F5342A338F6700252D90 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9602925F80C001CA567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ABA96C2925F80C001CA567 /* ViewController.swift in Sources */,
+				160F047F2A61C31300F30D28 /* tokens.example.swift in Sources */,
+				16ABA9682925F80C001CA567 /* AppDelegate.swift in Sources */,
+				16ABA96A2925F80C001CA567 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9762925F80D001CA567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ABA97F2925F80D001CA567 /* LemonadeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16ABA9802925F80D001CA567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16ABA98B2925F80D001CA567 /* LemonadeUITestsLaunchTests.swift in Sources */,
+				16ABA9892925F80D001CA567 /* LemonadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1660F5372A338F6700252D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1660F5302A338F6700252D90 /* Notification Service Extension */;
+			targetProxy = 1660F5362A338F6700252D90 /* PBXContainerItemProxy */;
+		};
+		16ABA97C2925F80D001CA567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16ABA9632925F80C001CA567 /* Lemonade */;
+			targetProxy = 16ABA97B2925F80D001CA567 /* PBXContainerItemProxy */;
+		};
+		16ABA9862925F80D001CA567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16ABA9632925F80C001CA567 /* Lemonade */;
+			targetProxy = 16ABA9852925F80D001CA567 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16ABA96D2925F80C001CA567 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16ABA96E2925F80C001CA567 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16ABA9722925F80D001CA567 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16ABA9732925F80D001CA567 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1660F53A2A338F6700252D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP98Z28R86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notification Service Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Notification Service Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebDemo.Itbl.Notification-Service-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1660F53B2A338F6700252D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP98Z28R86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Notification Service Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Notification Service Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebDemo.Itbl.Notification-Service-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16ABA98C2925F80D001CA567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16ABA98D2925F80D001CA567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16ABA98F2925F80D001CA567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lemonade/Lemonade.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP98Z28R86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lemonade/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebDemo.Itbl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16ABA9902925F80D001CA567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lemonade/LemonadeRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP98Z28R86;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lemonade/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebDemo.Itbl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16ABA9922925F80D001CA567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebDemo.Itbl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemonade";
+			};
+			name = Debug;
+		};
+		16ABA9932925F80D001CA567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebDemo.Itbl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lemonade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lemonade";
+			};
+			name = Release;
+		};
+		16ABA9952925F80D001CA567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebDemo.Itbl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lemonade;
+			};
+			name = Debug;
+		};
+		16ABA9962925F80D001CA567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebDemo.Itbl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lemonade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1660F53C2A338F6700252D90 /* Build configuration list for PBXNativeTarget "Notification Service Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1660F53A2A338F6700252D90 /* Debug */,
+				1660F53B2A338F6700252D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16ABA95F2925F80C001CA567 /* Build configuration list for PBXProject "Lemonade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ABA98C2925F80D001CA567 /* Debug */,
+				16ABA98D2925F80D001CA567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16ABA98E2925F80D001CA567 /* Build configuration list for PBXNativeTarget "Lemonade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ABA98F2925F80D001CA567 /* Debug */,
+				16ABA9902925F80D001CA567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16ABA9912925F80D001CA567 /* Build configuration list for PBXNativeTarget "LemonadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ABA9922925F80D001CA567 /* Debug */,
+				16ABA9932925F80D001CA567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16ABA9942925F80D001CA567 /* Build configuration list for PBXNativeTarget "LemonadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16ABA9952925F80D001CA567 /* Debug */,
+				16ABA9962925F80D001CA567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1660F53D2A33907600252D90 /* XCRemoteSwiftPackageReference "swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iterable/swift-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1660F53E2A33907600252D90 /* IterableAppExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1660F53D2A33907600252D90 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = IterableAppExtensions;
+		};
+		1660F5402A33907600252D90 /* IterableSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1660F53D2A33907600252D90 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = IterableSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16ABA95C2925F80C001CA567 /* Project object */;
+}

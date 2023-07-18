@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22138.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22113"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VisionOS_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lku-M9-eZM">
+                                <rect key="frame" x="167" y="835" width="96" height="35"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Shake it"/>
+                                <connections>
+                                    <action selector="shakeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MH5-64-UY7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a question?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sos-QG-NQp">
+                                <rect key="frame" x="102.66666666666669" y="449.66666666666669" width="225" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oui-vc-NgB" userLabel="All done original">
+                                <rect key="frame" x="167" y="490" width="96" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="All Done?"/>
+                                <connections>
+                                    <action selector="allDone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="18d-HX-Uyu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Oui-vc-NgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0g5-xd-2VD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lku-M9-eZM" secondAttribute="bottom" constant="28" id="4UC-mp-36b"/>
+                            <constraint firstItem="Oui-vc-NgB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="41.5" id="5Oe-6w-m2x"/>
+                            <constraint firstItem="sos-QG-NQp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Sj-Q3-ora"/>
+                            <constraint firstItem="Lku-M9-eZM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B0v-Tl-DMA"/>
+                            <constraint firstItem="Lku-M9-eZM" firstAttribute="leading" secondItem="Oui-vc-NgB" secondAttribute="leading" id="P8L-LO-fXF"/>
+                            <constraint firstItem="sos-QG-NQp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U2c-cP-hTE"/>
+                            <constraint firstItem="Oui-vc-NgB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="41.5" id="UBE-E1-oET"/>
+                            <constraint firstItem="Lku-M9-eZM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jfZ-Nt-CFt"/>
+                            <constraint firstItem="Lku-M9-eZM" firstAttribute="centerX" secondItem="Oui-vc-NgB" secondAttribute="centerX" id="sV2-1E-MWx"/>
+                            <constraint firstItem="Oui-vc-NgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sVg-EB-aNN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="sos-QG-NQp" id="eeR-rf-JGd"/>
+                        <outlet property="shakeButton" destination="Lku-M9-eZM" id="fFu-8S-x2G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19.534883720930232" y="2.5751072961373391"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
